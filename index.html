@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        crossorigin="anonymous" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,500;0,600;1,300;1,400&display=swap"
+        rel="stylesheet">
+    <title>Form-validation</title>
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="container-left">
+            <div class="header-container">
+                <h1>Create Account</h1>
+                <div class="logo-container">
+                    <img src="./public/img/google-plus.png" alt="">
+                    <img src="./public/img/facebook.png" alt="">
+                    <img src="./public/img/twitter.png" alt="">
+                    <img src="./public/img/linkedin.png" alt="">
+                </div>
+                <p>or use your email for registration:</p>
+            </div>
+            <div class="inputs-container-form">
+                <form class="form" action="">
+                    <div>
+                        <i class="fas fa-user"></i>
+                        <input class="name validate" type="text" name="name" placeholder="Name">
+                        <i class="fas fa-exclamation-circle failure-icon"></i>
+                        <i class="far fa-check-circle success-icon"></i>
+                        <div class="error"></div>
+                    </div>
+                    <br>
+                    <div>
+                        <i class="far fa-envelope"></i>
+                        <input class="email validate" type="email" name="email" placeholder="Email">
+                        <i class="fas fa-exclamation-circle failure-icon"></i>
+                        <i class="far fa-check-circle success-icon"></i>
+                        <div class="error"></div>
+                    </div>
+                    <br>
+                    <div>
+                        <i class="fas fa-lock"></i>
+                        <input class="password validate" type="password" name="password" placeholder="Password">
+                        <i class="fas fa-exclamation-circle failure-icon"></i>
+                        <i class="far fa-check-circle success-icon"></i>
+                        <div class="error"></div>
+                    </div>
+                </form>
+            </div>
+            <div class="bottom-container">
+                <div class="terms-container">
+                    <input class="checkbox-element" type="checkbox" name="terms">
+                    <label for="terms">I agree to the <span>Terms</span> and <span>Privacy Policy</span></label>
+                </div>
+                <br>
+                <div class="buttons-container">
+                    <button class="button-sign-up">Sign up</button>
+                    <button class="button-sign-in">Sign in</button>
+                </div>
+            </div>
+        </div>
+        <div class="container-right">
+            <img src="./public/img/background-right.png" alt="">
+        </div>
+    </div>
+    </div>
+
+
+    <script src="./public/index.js"></script>
+</body>
+
+</html>
