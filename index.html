@@ -30,42 +30,37 @@
                 <p>or use your email for registration:</p>
             </div>
             <div class="inputs-container-form">
-                <form class="form" action="">
+                <form ction="">
                     <div>
                         <i class="fas fa-user"></i>
-                        <input class="name validate" type="text" name="name" placeholder="Name">
-                        <i class="fas fa-exclamation-circle failure-icon"></i>
-                        <i class="far fa-check-circle success-icon"></i>
-                        <div class="error"></div>
+                        <input class="name validate" type="text" name="name" placeholder="Name" required>
+                        <br>
+                        <span class="error"></span>
                     </div>
                     <br>
                     <div>
                         <i class="far fa-envelope"></i>
-                        <input class="email validate" type="email" name="email" placeholder="Email">
-                        <i class="fas fa-exclamation-circle failure-icon"></i>
-                        <i class="far fa-check-circle success-icon"></i>
-                        <div class="error"></div>
+                        <input class="email validate" type="email" name="email" placeholder="Email" required>
+                        <br>
+                        <span class="error"></span>
                     </div>
                     <br>
                     <div>
                         <i class="fas fa-lock"></i>
-                        <input class="password validate" type="password" name="password" placeholder="Password">
-                        <i class="fas fa-exclamation-circle failure-icon"></i>
-                        <i class="far fa-check-circle success-icon"></i>
-                        <div class="error"></div>
+                        <input class="password validate" type="password" name="password" placeholder="Password"
+                            required>
+                        <br>
+                        <span class="error"></span>
                     </div>
+
+                    <div class="terms-containers">
+                        <input class="checkbox-element" type="checkbox" name="terms">
+                        <label for="terms">I agree to the <span>Terms</span> and <span>Privacy Policy</span></label>
+                    </div>
+
+                    <button type="submit" class="button-submit">Get started</button>
+
                 </form>
-            </div>
-            <div class="bottom-container">
-                <div class="terms-container">
-                    <input class="checkbox-element" type="checkbox" name="terms">
-                    <label for="terms">I agree to the <span>Terms</span> and <span>Privacy Policy</span></label>
-                </div>
-                <br>
-                <div class="buttons-container">
-                    <button class="button-sign-up">Sign up</button>
-                    <button class="button-sign-in">Sign in</button>
-                </div>
             </div>
         </div>
         <div class="container-right">
